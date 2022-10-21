@@ -1,0 +1,17 @@
+.transaction_body {
+    background-color: rgb(102, 201, 240);
+}
+
+.transaction_body:nth-last-child(2n) {
+    background-color: white;
+}
+
+.transaction_body:hover {
+    scale: 1.02;
+}
+
+.transaction_type {
+    text-align: left;
+    padding-left: 50px;
+    text-transform: capitalize;
+}
